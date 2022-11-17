@@ -47,7 +47,7 @@ export const CardProduct = ({
       }}
     >
       <Box gridArea='logo' sx={{ paddingRight: 2 }}>
-        <Avatar src={img} sx={{ width: { xs: '100%', md: '110px'}, height: { xs: '100%', md: '110px'} }} variant="rounded"/>
+        <Avatar src={img} sx={{ width: { xs: '100%', md: '110px'}, height: { xs: 'auto', md: '110px'} }} variant="rounded"/>
       </Box>
       <Typography gridArea='title' variant='h6'>
         {title}
