@@ -16,15 +16,15 @@ export default function App({ Component, pageProps }: AppProps) {
 
   const theme = createTheme({
     palette: {
-      mode: 'dark',
+      mode: 'light',
       primary: {
         main: '#5b48c1',
       },
       secondary: {
-        main: '#D3F5E7',
+        main: '#1aaf62',
       },
       background: {
-        paper: '#303030',
+        paper: '#fcfcfc',
       }
   }});
   return (
