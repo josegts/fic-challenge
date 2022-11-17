@@ -28,9 +28,9 @@ export const CardContainer = ({ children, withoutBack = false }: Props) => {
           gap: 2,
           padding: 4,
           borderRadius: 2,
-          boxShadow: 3,
+          boxShadow: {xs: 0, md: 2},
           backgroundColor: {
-            xs: 'none',
+            xs: 'transparent',
             md: theme.palette.background.paper
           },
         }}
