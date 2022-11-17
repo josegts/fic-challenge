@@ -12,7 +12,7 @@ export const useGetDetailProduct = ({
   return useQuery(
     [key],
     () =>
-      fetch(`http://localhost:3000/api/get-item?id=${id}`).then((res) =>
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/get-item?id=${id}`).then((res) =>
         res.json()
       ),
     options
